@@ -11,6 +11,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <Folder Include="client\public\assets\backgrounds\" />
       <Folder Include="client\src\components\styles\pages_style\" />
       <Folder Include="Controllers\" />
       <Folder Include="Models\" />
