@@ -428,5 +428,38 @@
 
     font-weight: bold;
 }
+.project-bg-layer {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+ 
+}
 
+.project-bg-media {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
+.project-bg-media--active {
+    opacity: 1;
+}
+
+.project-bg-media video,
+.project-bg-media img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.project-bg-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+            180deg,
+            rgba(5, 6, 10, 0.8) 0%,
+            rgba(5, 6, 10, 0.55) 100%
+    );
+}
  
